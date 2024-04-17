@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JQ Plugins</title>
+	<!--plugin links-->
+	<link rel="stylesheet" href="vendor/lightbox/dist/css/lightbox.min.css">
+	<link rel="stylesheet" href="vendor/ripple/dist/ripple.min.css">
+	<!--css links-->
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/media.css">
+
+</head>
+
+<body>
+
+	<!-- preloader start -->
+    <div id="loading">
+      <div id="loading-center">
+        <div id="loading-center-absolute">
+          <div class="object" id="object_one"></div>
+          <div class="object" id="object_two"></div>
+          <div class="object" id="object_three"></div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader end  -->
+
+	<section class="pages">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="text-center">
+						<button class="btn btn-dark mt-3"><a class="a_cus" href="page1.html">Next Page</a></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</section>
+
+	<!--Counter Plugin-->
+	<section class="counterup">
+		<div class="container">
+			<div class="text-center">
+				<h1 class="t_h1">Counter Plugin</h1>
+			</div>
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="wrapper text-center">
+						<h2 class="t_h2">Total Projects</h2>
+						<h3 class="counter">2984934</h3>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="wrapper text-center">
+						<h2 class="t_h2">Web Projects</h2>
+						<h3 class="counter">25340</h3>
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="wrapper text-center">
+						<h2 class="t_h2">Field Projects</h2>
+						<h3 class="counter">65948</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</section>
+	
+	<!--MixItUp Plugin-->
+	<section class="mixitup">
+		<div class="container">
+			<div class="row mt-3">
+				<div class="col-lg-12">
+					<div class="text-center">
+						<h1 class="t_h1">MixItUp & Ripple Effect on button Plugins</h1>
+						<a href="#" data-filter="all" class="btn btn-primary rippleit">All</a>
+						<a href="#" data-filter=".web" class="btn btn-secondary rippleit">Web Design</a>
+						<a href="#" data-filter=".dev" class="btn btn-warning rippleit">Web Development</a>
+						<a href="#" data-filter=".wp" class="btn btn-danger rippleit">Wordpress</a>
+						<a class="btn btn-success rippleit" data-sort="order:asc">Ascending</a>
+						<a class="btn btn-info rippleit" data-sort="order:descending">Descending</a>
+						<a class="btn btn-dark rippleit" data-sort="random">Random</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="row mt-3" id="hello">
+				<div class="col-lg-3 mb-3 mix web" data-order="1">
+					<div class="d_img">
+						<img src="images/web1.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix wp" data-order="5">
+					<div class="d_img">
+						<img src="images/web5.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix dev" data-order="4">
+					<div class="d_img">
+						<img src="images/web4.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix web" data-order="2">
+					<div class="d_img">
+						<img src="images/web2.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix dev" data-order="3">
+					<div class="d_img">
+						<img src="images/web3.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix wp" data-order="6">
+					<div class="d_img">
+						<img src="images/web6.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix web" data-order="8">
+					<div class="d_img">
+						<img src="images/web8.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+				<div class="col-lg-3 mb-3 mix dev" data-order="7">
+					<div class="d_img">
+						<img src="images/web7.jpg" class="w-100" alt="demo">
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</section>
+
+	<!--Lightbox Plugin-->
+	<section class="lightbox">
+		<div class="container">
+			<div class="row">
+				<h1 class="t_h1 text-center">Lightbox Plugin</h1>
+				<div class="col-lg-3">
+					<div class="l_img">
+						<a href="images/web1.jpg" class="w-100" data-lightbox="i_img" data-title="Web Design">
+							<img src="images/web1.jpg" class="w-100" alt="demo">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="l_img">
+						<a href="images/web2.jpg" class="w-100" data-lightbox="i_img" data-title="Web Design">
+							<img src="images/web2.jpg" class="w-100" alt="demo">
+						</a>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<div class="l_img">
+						<a href="images/web3.jpg" class="w-100" data-lightbox="i_img" data-title="Web Design">
+							<img src="images/web3.jpg" class="w-100" alt="demo">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+	</section>
+
+
+	<!--js links-->
+	<script src="js/jquery.min.js"></script>
+	<!--plugin links-->
+	<script src="vendor/counter-up/waypoints.min.js"></script>
+	<script src="vendor/counter-up/jquery.counterup.min.js"></script>
+	<script src="vendor/lightbox/dist/js/lightbox.min.js"></script>
+	<script src="vendor/mixitup/dist/mixitup.min.js"></script>
+	<script src="vendor/ripple/dist/ripple.min.js"></script>
+	<!--other links-->
+	<script src="js/bootstrap.bundle.min.js"></script>
+	<script src="js/ripplescript.js"></script>
+	<script src="js/script.js"></script>
+</body>
+</html>

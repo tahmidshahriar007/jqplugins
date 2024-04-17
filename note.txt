@@ -1,0 +1,17 @@
+plugins done:
+preloader
+mixitup
+lightbox
+counter
+aos 1 and 2
+wow
+particle js (snow flake)
+ripple buttons
+arc text
+slik slider
+
+
+tagify: 
+<link href="vendor/tagify/dist/tagify.css" rel="stylesheet" type="text/css" />
+<script src="vendor/tagify/dist/tagify.min.js"></script>
+<script src="vendor/tagify/dist/tagify.polyfills.min.js"></script>
